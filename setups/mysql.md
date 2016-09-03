@@ -3,6 +3,15 @@
 This note is for setting up both MySQL server and MySQL workbench for MacOS and
 Windows.
 
+Note that it's important for you to remember to start MySQL server before running MySQL workbench.
+
+## Laboratory computer
+
+If you are using laboratory computer (the computer you don't have admin access to),
+you can consider running portable MySQL server here -- http://portableapps.com/apps/development/xampp
+
+Once you installed the MySQL above, you can start the MySQL server from its interface.
+
 ## Windows
 
 For windows, please go to the https://dev.mysql.com/downloads/mysql/ to download
@@ -31,4 +40,14 @@ brew install mysql
 
 And then you can start the server by `mysql.server start`.
 
-When you are done with the server, run `mysql.server stop`
+When you finish what you need to do with the server, run `mysql.server stop` to stop server
+
+Once you installed the server, you can confirm by using MySQL workbench to connect to it.
+If you are seeing issue like `Table 'performance_schema.session_variables' doesn't exist`,
+please run `mysql_upgrade -u root -p --force`.
+
+Reference: http://stackoverflow.com/questions/31967527/table-performance-schema-session-variables-doesnt-exist
+
+## MySQL Workbench
+
+Go to http://dev.mysql.com/downloads/workbench/ to download it and install it.
