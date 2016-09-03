@@ -51,3 +51,25 @@ Reference: http://stackoverflow.com/questions/31967527/table-performance-schema-
 ## MySQL Workbench
 
 Go to http://dev.mysql.com/downloads/workbench/ to download it and install it.
+
+For MacOS users, you may find http://www.sequelpro.com/ to be alternative to
+MySQL workbench.
+
+## Remote server connection
+
+Sometimes, you may need to connect a remote MySQL database server. If this is the
+case, you may find yourself having a linux terminal to be helpful.
+
+> In windows, I suggest you to have a git shell -- https://git-for-windows.github.io/
+
+To connect to a remote server, use ssh into server and run the command:
+
+```sh
+# ssh into server
+ssh eric:@cs1.csula.edu
+# will prompt you to enter password
+
+# when on server
+mysql -u eric -p
+# will prompt you to enter password
+```
