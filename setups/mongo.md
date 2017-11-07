@@ -103,13 +103,13 @@ md \data\db
 Then, you can start the MongoDB by executing the mongod.exe e.g.:
 
 ```
-C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe
+"C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe"
 ```
 
 ### Connect to server
 
 ```
-C:\Program Files\MongoDB\Server\3.4\bin\mongo.exe
+"C:\Program Files\MongoDB\Server\3.4\bin\mongo.exe"
 ```
 
 ## Linux
