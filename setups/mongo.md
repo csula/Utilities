@@ -34,7 +34,8 @@ brew install mongodb
 After you install the mongodb, you will need to create a data directory under /data/db by
 
 ```
-mkdir -p /data/db
+sudo mkdir -p /data/db
+sudo chmod 777 /data/db
 ```
 
 ### Run server
