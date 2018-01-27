@@ -10,6 +10,8 @@ Note that it's important for you to remember to start MySQL server before runnin
 If you are using laboratory computer (the computer you don't have admin access to),
 you can consider running portable MySQL server here -- http://portableapps.com/apps/development/xampp
 
+https://drive.google.com/file/d/1dkC3f2Q8_EEc0ZtzZwDhLxRnlTd1SesK/view?usp=sharing
+
 Once you installed the MySQL above, you can start the MySQL server from its interface.
 
 ## Windows
